@@ -33,6 +33,7 @@ We are now ready to ssh :)
     * It will look like `ssh cs15lyyyyzz@ieng6.ucsd.edu` with the `yyyyzz` part being different
 * If it's your first time you're connecting to the server, you'll get a message that asks yes/no; go ahead and type `yes` and hit enter
 * Then type/paste in your password you set from before and hit enter
+
 Your output will look something like this:
 
 ![](remote_server_connect.png)
