@@ -15,6 +15,7 @@ If not, then you can find your course-specific account at <https://sdacs.ucsd.ed
 * Click on the hyperlink that says **Global Password Change Tool** and follow the onscreen instructions to reset your password.
 * You should end on a message that says something like "Password change successful."
 With that out of the way, we can move on to setting up our terminal!
+
 ## Step 1: Installing Visual Studio Code
 Now the very first thing you need to do is download VScode at <https://code.visualstudio.com/> and follow the onscreen instructions if you don't already have VScode installed.
 The opening screen should look something like this (maybe with different colors/themes):
@@ -27,6 +28,7 @@ After that, you can set the default VScode terminal to the newly installed `git 
 [Setting Git Bash as Default Terminal For Windows](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 
 We are now ready to ssh :)
+
 ## Step 2: Remotely Connecting
 * If your VScode terminal isn't already open, you can open it through Ctrl or Command + ` like I did, or you can also click the Terminal option on the top menu bar, and then click on New Terminal
 * Now type in the command `ssh` followed by your course-specific account username and hit enter
@@ -39,6 +41,7 @@ Your output will look something like this:
 ![](remote_server_connect.png)
 
 Now, any commands you run on the terminal will run on the remote server rather than your own computer. You can try some commands out; in the next step, I'll show some examples of commands I tried.
+
 ## Step 3: Trying Some Commands
 This step is a little bit of freedom, where you can try out whatever commands you want and see what happens.  
 Here's a screenshot of some of the commands I tried and their output
