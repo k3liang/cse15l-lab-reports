@@ -56,5 +56,6 @@ I just used some basic commands (`pwd` `cd` `ls` `cp` `cat`) and I'll try explai
     * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` copied the public `hello.txt` file to my home directory, which was confirmed through `ls -a`
 * `cat`: prints out the contents of a given file
     * `cat hello.txt` printed out the contents of the `hello.txt` file that was now in my home directory
+* One final note: if you want to log out of the remote server, you can use either Ctrl-D or run the command `exit`
 
 That's pretty much it for this tutorial on remote access! Hope you got something out of this :D
