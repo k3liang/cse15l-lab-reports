@@ -120,7 +120,7 @@ static int[] reversed(int[] arr) {
 
 To see why this fix actually addresses the issue, here's a line of reasoning that you can take:
 * It can be seen from the initial line `int[] newArray = new int[arr.length]` that the author of the program was hoping for `newArray` to be a reversed copy of the argument `arr`
-* Thus, the for loop *should* pass in elements of `arr` into `newArray` in reversed order; however, a bug is definitely apparent here, where `newArray` and `arr` are in the opposite places they should be in the line of assignment: `arr[...] = newArray[...]`
+* Thus, the for loop *should* pass in elements of `arr` into `newArray` in reversed order; however, a bug is definitely apparent here, where `newArray` and `arr` are in the opposite places of where they should be in the line of assignment: (Before) `arr[...] = newArray[...]`
     * This results in `arr` being filled in by the elements of `newArray` in reversed order! In Java, `newArray` would be initialized with `0`s, and so then `arr` would just be filled in with `0`s and `newArray` wouldn't be changed!
     * Thus the fix here is just to switch `newArray` and `arr` on that particular line of array assignment, making it `newArray[...] = arr[...]`
 * There's one last issue of the `reversed` method. After the for loop, we need to return the reversed copy of `arr` (i.e. return `newArray`), but the initial code instead just returned the argument array `arr` 
