@@ -76,7 +76,7 @@ public void testReversedWithNonzeroValues() {
 }
 ```
 
-* On the other hand, if you were to input an empty array or and array with only the default values (only `0`), then no failure would be induced, such as the following JUnit test:
+* On the other hand, if you were to input an empty array or an array with only the default values (only `0`), then no failure would be induced, such as the following JUnit test:
 
 ```
 @Test
