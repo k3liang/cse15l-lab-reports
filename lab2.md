@@ -1,7 +1,7 @@
 # Lab Report 2 - Servers and Bugs (Week 3)
-* [Part 1](lab2.html#part-1)
-* [Part 2](lab2.html#part-2)
-* [Part 3](lab2.html#part-3)
+* [Part 1](https://k3liang.github.io/cse15l-lab-reports/lab2.html#part-1)
+* [Part 2](https://k3liang.github.io/cse15l-lab-reports/lab2.html#part-2)
+* [Part 3](https://k3liang.github.io/cse15l-lab-reports/lab2.html#part-3)
 
 ## Part 1
 Here's my implementation of the `StringServer` web server that keeps track of a single string that is added to by requests.
