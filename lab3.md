@@ -219,6 +219,7 @@ technical/biomed/gb-2003-4-7-r46.txt:280:          and as tumors may include ste
 ```
 - Here, the `grep -n` command went through all the text files of the `biomed` directory and printed the matching lines to the phrase `"stem cells"`, as well as including the line numbers of those matching lines.
 - Again, what's great here is that if I now want to look into one of these text files and read more into the section involving stem cells, I can simply go directly to the line number instead of having to manually look for the phrase "stem cells." 
+
 *Source: I used the `grep --help` command to get a list of all the possible command-line options where I found `-n`.*
 
 ## `-l` : Names of Matching Files
