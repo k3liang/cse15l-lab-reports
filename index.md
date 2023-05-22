@@ -4,3 +4,5 @@
 [**Lab Report 2**](lab2.html)
 
 [**Lab Report 3**](lab3.html)
+
+[**Lab Report 4**](lab4.html)
